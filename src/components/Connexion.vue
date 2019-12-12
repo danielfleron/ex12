@@ -7,14 +7,19 @@
         <input type="text" id="name" name="user_name" placeholder="user">
         <input type="text" id="mail" name="user_mail" placeholder="mot de passe">
         <input type="submit">
-    </form
+    </form>
   </div>
 </template>
 
 <script>
   export default {
   name: "Connexion",
-  
+  data: function () {
+  return {
+    count: 0
+    }
+  },
+
   }
 </script>
 
